@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+}
+@font-face {
+  font-family: "Ethnocentric";
+  src: url("fonts/ethnocentric rg.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.container {
+  background-image: url("img/metalurgia-1.jpg"); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 90vh;
+}
+
+h1 {
+  font-family: "Ethnocentric", sans-serif; /* Usamos Ethnocentric para el título */
+  font-weight: bold; /* Y le damos peso bold */
+  font-size: 4rem; /* Ajusta el tamaño de la fuente */
+}
+
+h2 {
+  font-family: "Ethnocentric", sans-serif; /* Usamos Ethnocentric para el título */
+  font-size: 1rem; /* Ajusta el tamaño de la fuente */
+}
+
+.contact-button {
+  background-color: yellow; /* Color de fondo del botón */
+  opacity: 60%;
+  font-family: "Ethnocentric", sans-serif; /* Usamos Ethnocentric para el título */
+  font-weight: bold; /* Y le damos peso bold */
+  color: black; /* Color del texto del botón */
+  border: none;
+  padding: 1rem 2rem; /* Ajusta el espaciado del botón */
+  font-size: 1.2rem; /* Ajusta el tamaño de la fuente del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Ajusta el radio de las esquinas del botón */
+  margin-top: 2rem; /* Ajusta el espaciado superior del botón */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.dist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 10vmax;
+  opacity: 70%;
+}
+
+.pau {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: yellow;
+  height: 10vmax;
+  opacity: 70%;
+  letter-spacing: 1cm;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+.nav-items {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vh;
+  font-size: 1.2rem;
+}
+.item {
+  background-color: black;
+  border-radius: 10%;
+  padding: 1%;
+  opacity: 70%;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+}
+
+.card-info {
+  margin: 2%;
+  font-size: small;
+  color: white;
+  background-color: #444444;
+  width: 50vh;
+  height: 20vh;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: yellow;
+  font-weight: bold; /* Y le damos peso bold */
+  margin-bottom: 5%;
+  font-size: 2rem;
+}
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.serviceLine {
+  margin-inline-start: 5%;
+  margin-inline-end: 5%;
+  padding-bottom: 10px;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.filter-button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #fffb00;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-button.active {
+  border-color: blue; /* Sombreado azul */
+  background-color: #e6f7ff; /* Fondo ligeramente azul */
+  color: blue; /* Cambia el texto a azul */
+  font-weight: bold;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Estilo de la card */
+.card {
+  width: 70%; /* Ajusta el ancho de la card */
+  max-width: 1200px; /* Limita el tamaño máximo */
+  margin: 20px auto; /* Centra la card horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 50%;
+  object-fit: cover;
+  padding: 1%;
+}
+
+.card-content {
+  padding: 10px 15px;
+  padding-top: 40%;
+  height: 90%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 2px;
+
+}
+
+.card-content h3 {
+  color: #ff6f00; /* Color del título */
+  font-size: 16px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 1.4;
+  color: #333;
+}
+

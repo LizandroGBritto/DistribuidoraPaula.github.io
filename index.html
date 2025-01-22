@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Distribuidora Paula</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul class="nav-items">
+          <li class="item">
+            <a href="#Servicios"
+              >Servicios
+              <img src="svg/abajo.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <div class="logo-container">
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+          </li>
+
+          <li class="item">
+            <a href="#Contacto"
+              >Contacto
+              <img src="svg/abajo.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h1 class="dist">DISTRIBUIDORA</h1>
+      <h1 class="pau">PAULA</h1>
+      <button class="contact-button">CONTACTAR</button>
+    </div>
+    <div class="contenido">
+      <div class="info">
+        <div class="card-info">
+          <h2 class="text">+70</h2>
+          <h2>Proyectos terminados</h2>
+        </div>
+        <div class="card-info">
+          <h2 class="text">+1200</h2>
+          <h2>Instituciones beneficiadas</h2>
+        </div>
+        <div class="card-info">
+          <h2 class="text">+10</h2>
+          <h2>Años de trayectoria</h2>
+        </div>
+      </div>
+      <div class="servicios" id="Servicios">
+        <div class="serviceLine">
+          <h3 class="service">Servicios</h3>
+        </div>
+        <div class="buttons">
+            <button class="filter-button" onclick="filterCards('Enseres')">ENSERES</button>
+            <button class="filter-button" onclick="filterCards('Demarcacion Vial')">DEMARCACIÓN VÍAL</button>
+            <button class="filter-button" onclick="filterCards('Carteleria')">CARTELERÍA</button>
+            <button class="filter-button" onclick="filterCards('Parques infantiles')">PARQUES INFANTILES</button>
+            <button class="filter-button" onclick="filterCards('All')">VER TODOS</button>
+          </div>
+          <div id="cards-container" class="cards-container"></div>
+        
+          <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
