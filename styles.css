@@ -29,7 +29,6 @@ h2 {
 
 .contact-button {
   background-color: yellow; /* Color de fondo del botón */
-  opacity: 60%;
   font-family: "Ethnocentric", sans-serif; /* Usamos Ethnocentric para el título */
   font-weight: bold; /* Y le damos peso bold */
   color: black; /* Color del texto del botón */
@@ -40,7 +39,9 @@ h2 {
   border-radius: 5px; /* Ajusta el radio de las esquinas del botón */
   margin-top: 2rem; /* Ajusta el espaciado superior del botón */
 }
-
+.contact-button a {
+  color:#141414;
+}
 a {
   text-decoration: none;
   color: white;
