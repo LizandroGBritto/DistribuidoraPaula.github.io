@@ -363,7 +363,20 @@ justify-content: space-evenly;
     text-align: center;
     height: 40vh;
   }
+  .pau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    height: 10vmax;
+    opacity: 70%;
+    letter-spacing: 0.5cm;
+  }
 
+  .item2{
+    margin-right: 10%;;
+  }
   .contact-button {
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
