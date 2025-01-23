@@ -252,6 +252,20 @@ justify-content: space-evenly;
   color:#fffb00;
 }
 
+.footer2 {
+  background-color: #141414; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  text-align: center; /* Centra el texto */
+  padding: 10px 20px; /* Espaciado */
+  font-size: 0.9rem; /* Tamaño de fuente */
+  border-top: 1px solid #333; /* Línea superior para separar */
+}
+
+.footer2 p {
+  margin: 0; /* Elimina margen */
+  font-family: Arial, sans-serif; /* Fuente estándar */
+}
+
 
 
 /* Tamaño base para dispositivos pequeños (teléfonos móviles) */
@@ -296,6 +310,10 @@ justify-content: space-evenly;
   .card-content {
     width: 100%; /* Ajusta la anchura del contenido */
     padding-top: 20%; /* Reduce el espacio superior */
+  }
+
+  .footer2 {
+    font-size: 0.8rem; /* Tamaño más pequeño en dispositivos móviles */
   }
 }
 
