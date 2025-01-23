@@ -417,6 +417,9 @@ justify-content: space-evenly;
     padding-left: 30%;
   }
 
+  .contact-info a {
+    font-size: 0.6rem; /* Reduce aún más el tamaño de la fuente */
+  }
   .contact-info img {
     width: 5%; /* Ajusta el tamaño de las imágenes para pantallas más pequeñas */
   }
