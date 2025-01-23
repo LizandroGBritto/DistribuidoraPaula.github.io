@@ -218,6 +218,35 @@ button:hover {
   color: #333;
 }
 
+.footer{
+color: white ;
+display: flex;
+justify-content: space-evenly;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.contact h3{
+ padding-left: 30%;
+ border-bottom-color: rgb(255, 255, 255);
+ border-bottom-style: solid;
+ border-bottom-width: 2px;
+}
+
+.contact-info{
+  margin: 5px;
+}
+.contact-info img{
+  width: 8%;
+}
+
+
+
 /* Tamaño base para dispositivos pequeños (teléfonos móviles) */
 @media (max-width: 768px) {
   h1 {
@@ -345,6 +374,11 @@ button:hover {
     font-size: 1.2rem;
   }
 
+  .card {
+    width: 90%; /* Ajusta el ancho de la card */
+
+  }
+
   .card-content h3 {
     font-size: 12px;
   }
@@ -359,5 +393,28 @@ button:hover {
     justify-content: center;
     margin-bottom: 20px;
     flex-wrap: wrap;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer h3 {
+    padding: 10px;
+    font-size: 0.5rem;
+    margin:5px;
+  }
+
+  .contact h3 {
+    font-size: 0.9rem; /* Reduce aún más el tamaño de la fuente */
+    padding-left: 30%;
+  }
+
+  .contact-info img {
+    width: 5%; /* Ajusta el tamaño de las imágenes para pantallas más pequeñas */
+  }
+
+  .contact-info {
+    margin: 5px 0; /* Ajusta el margen */
   }
 }
