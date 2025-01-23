@@ -139,8 +139,6 @@ a {
   margin-bottom: 20px;
 }
 
-
-
 button:hover {
   background-color: #0056b3;
 }
@@ -190,6 +188,8 @@ button:hover {
   width: 50%;
   object-fit: cover;
   padding: 1%;
+  transition: opacity 0.7s ease-in-out;
+  opacity: 1;
 }
 
 .card-content {
@@ -202,7 +202,6 @@ button:hover {
   border-left-color: rgb(0, 0, 0);
   border-left-style: solid;
   border-left-width: 2px;
-
 }
 
 .card-content h3 {
@@ -219,3 +218,146 @@ button:hover {
   color: #333;
 }
 
+/* Tamaño base para dispositivos pequeños (teléfonos móviles) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Reduce el tamaño del título */
+  }
+
+  h2 {
+    font-size: 0.8rem; /* Reduce el tamaño del subtítulo */
+  }
+
+  .contact-button {
+    font-size: 1rem; /* Reduce el tamaño del botón */
+    padding: 0.8rem 1.5rem; /* Ajusta el espaciado */
+  }
+
+  .nav-items {
+    font-size: 1rem; /* Ajusta el tamaño del menú */
+  }
+
+  .text {
+    font-size: 1.5rem; /* Reduce el tamaño del texto destacado */
+  }
+
+  .service {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto en servicios */
+  }
+
+  .card-content h3 {
+    font-size: 14px; /* Reduce el tamaño del título en las tarjetas */
+  }
+
+  .card-content p {
+    font-size: 12px; /* Reduce el tamaño del texto en las tarjetas */
+  }
+
+ 
+
+  
+
+  .card-content {
+    width: 100%; /* Ajusta la anchura del contenido */
+    padding-top: 20%; /* Reduce el espacio superior */
+  }
+}
+
+/* Tamaño base para tabletas */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3rem; /* Ajusta el tamaño del título */
+  }
+
+  h2 {
+    font-size: 0.9rem; /* Ajusta el tamaño del subtítulo */
+  }
+
+  .contact-button {
+    font-size: 1.1rem; /* Ajusta el tamaño del botón */
+    padding: 0.9rem 1.7rem; /* Ajusta el espaciado */
+  }
+
+  .nav-items {
+    font-size: 1.1rem; /* Ajusta el tamaño del menú */
+  }
+
+  .text {
+    font-size: 1.8rem; /* Ajusta el tamaño del texto destacado */
+  }
+
+  .service {
+    font-size: 1.8rem; /* Ajusta el tamaño del texto en servicios */
+  }
+
+  .card-content h3 {
+    font-size: 15px; /* Ajusta el tamaño del título en las tarjetas */
+  }
+
+  .card-content p {
+    font-size: 13px; /* Ajusta el tamaño del texto en las tarjetas */
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    ); /* Ajusta el diseño de las tarjetas */
+  }
+}
+
+/* Tamaño base para pantallas muy pequeñas (dispositivos compactos) */
+@media (max-width: 480px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 1.8rem; /* Más pequeño para pantallas pequeñas */
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+
+  .container {
+    background-image: url("img/metalurgia-1.jpg"); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 40vh;
+  }
+
+  .contact-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-items {
+    font-size: 0.9rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+  }
+
+  .service {
+    font-size: 1.2rem;
+  }
+
+  .card-content h3 {
+    font-size: 12px;
+  }
+
+  .card-content p {
+    font-size: 10px;
+  }
+
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+}
