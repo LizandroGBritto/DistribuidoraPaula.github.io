@@ -239,10 +239,17 @@ justify-content: space-evenly;
 }
 
 .contact-info{
+  display: flex;
+  justify-content: start;
+  align-items: center;
   margin: 5px;
 }
 .contact-info img{
   width: 8%;
+  margin-right: 2%;
+}
+.maps{
+  color:#fffb00;
 }
 
 
